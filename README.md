@@ -38,17 +38,3 @@ Update `url` and `baseurl` in `_config.yml`.
 url: 'https://your-username.github.io'
 baseurl: 'your-repo-name'
 ```
-
-## Liquid syntax highlighting
-
-I prefer using HTML over Markdown. However, [extension](https://marketplace.visualstudio.com/items/?itemName=sissel.shopify-liquid) I use for Liquid doesn't support syntax highlighting in HTML. Therefore, I have added in .vscode/settings.json.
-
-```json
-{
-  "files.associations": {
-    "*.html": "markdown"
-  }
-}
-```
-
-Now every HTML file will have Language Mode set to Markdown and syntax highlighting will work.
