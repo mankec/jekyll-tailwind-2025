@@ -15,7 +15,7 @@ Now you can make changes and push them to your own repo.
 
 I used Yarn. You can remove `yarn.lock` and run `npm` if you prefer it over Yarn.
 
-```
+```bash
 bundle
 yarn
 bundle exec jekyll s --livereload
@@ -34,7 +34,21 @@ GitHub Workflow is in `.github/workflows/github-pages.yml`.
 
 Update `url` and `baseurl` in `_config.yml`.
 
-```
+```yaml
 url: 'https://your-username.github.io'
 baseurl: 'your-repo-name'
 ```
+
+## Liquid syntax highlighting
+
+I prefer using HTML over Markdown. However, [extension](https://marketplace.visualstudio.com/items/?itemName=sissel.shopify-liquid) I use for Liquid doesn't support syntax highlighting in HTML. Therefore, I have added in .vscode/settings.json.
+
+```json
+{
+  "files.associations": {
+    "*.html": "markdown"
+  }
+}
+```
+
+Now every HTML file will have Language Mode set to Markdown and syntax highlighting will work.
