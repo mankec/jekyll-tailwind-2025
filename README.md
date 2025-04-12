@@ -1,4 +1,4 @@
-# Jekyll with Tailwind, barebone setup for Ubuntu
+# Jekyll with Tailwind, barebone setup
 
 This is an updated version of gusano's [jekyll-tailwind-2024](https://github.com/gusano/jekyll-tailwind-2024) so it can work with `jekyll 4.4.1`. Thanks to them for doing most of the work!
 
