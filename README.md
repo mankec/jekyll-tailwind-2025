@@ -30,3 +30,10 @@ Go to your repo's settings and [enable](https://docs.github.com/en/pages/quickst
 After that you will need to set [SSH Private Key](https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#%EF%B8%8F-set-ssh-private-key-deploy_key) or [Personal Access Token](https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#%EF%B8%8F-set-personal-access-token-personal_token).
 
 GitHub Workflow is in `.github/workflows/github-pages.yml`.
+
+Update `url` and `baseurl` in `_config.yml`.
+
+```
+url: 'https://your-username.github.io'
+baseurl: 'your-repo-name'
+```
