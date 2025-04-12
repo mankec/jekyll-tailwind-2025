@@ -24,9 +24,9 @@ bundle exec jekyll s --livereload
 
 This is an updated setup I took from this [blog post](https://mzrn.sh/2023/10/26/how-to-use-tailwind-css-with-jekyll-on-github-pages/). You are encouraged to read it. It's well-written and easy to understand.
 
-This project already has everything set up, but there's a few things you will need to do on your own.
-On GitHub go to your repo's settings and [enable](https://docs.github.com/en/pages/quickstart) GitHub Pages.
+This project almost has everything set up, but there's a few things you will need to do on your own.
+Go to your repo's settings and [enable](https://docs.github.com/en/pages/quickstart) GitHub Pages.
 
 After that you will need to set [SSH Private Key](https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#%EF%B8%8F-set-ssh-private-key-deploy_key) or [Personal Access Token](https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#%EF%B8%8F-set-personal-access-token-personal_token).
 
-Now that you have done it go to `.github/workflows/github-pages.yml` and update `PEACEIRIS_ACTIONS_DEPLOY_KEY` with a name that you chose.
+GitHub Workflow is in `.github/workflows/github-pages.yml`.
