@@ -6,7 +6,7 @@ This is an updated version of [jekyll-tailwind-2024](https://github.com/gusano/j
 
 ```
 git clone git@github.com:mankec/jekyll-tailwind-2025.git
-git remote rm git@github.com:mankec/jekyll-tailwind-2025.git
+git remote rm origin
 git remote add origin your-git-ssh-url
 ```
 
