@@ -38,3 +38,17 @@ Update `url` and `baseurl` in `_config.yml`.
 url: 'https://your-username.github.io'
 baseurl: 'your-repo-name'
 ```
+
+## Liquid syntax highlighting
+
+[Extension](https://marketplace.visualstudio.com/items/?itemName=sissel.shopify-liquid) for Liquid that I use doesn't support HTML. Therefore, I added in `.vscode/settings.json`.
+
+```json
+{
+  "files.associations": {
+    "*.html": "liquid"
+  }
+}
+```
+
+Now every HTML file have their Language Mode set to Liquid.
