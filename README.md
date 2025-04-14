@@ -42,7 +42,7 @@ After that you will need to set [SSH Private Key](https://github.com/peaceiris/a
 
 GitHub Workflow is in `.github/workflows/github-pages.yml`.
 
-Update `url` and `baseurl` in `_config.yml`.
+Update `url` and `baseurl` in `_config.production.yml`. This config file will be used in production or if you call it explicitly with `jekyll.environment == "production"`.
 
 ```yaml
 url: 'https://your-username.github.io'
