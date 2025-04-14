@@ -25,10 +25,14 @@ bundle exec jekyll s --livereload
 
 This is an updated setup I took from this [blog post](https://mzrn.sh/2023/10/26/how-to-use-tailwind-css-with-jekyll-on-github-pages/). You are encouraged to read it. It's well-written and easy to understand.
 
-This project almost has everything set up, but there's a few things you will need to do on your own.
-Go to your repo's settings and [enable](https://docs.github.com/en/pages/quickstart) GitHub Pages.
 
-After that you will need to set [SSH Private Key](https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#%EF%B8%8F-set-ssh-private-key-deploy_key) or [Personal Access Token](https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#%EF%B8%8F-set-personal-access-token-personal_token).
+This project almost has everything set up, but there's a few things you will need to do on your own.
+
+Using GitHub UI create new branch called `gh-pages`.
+
+Go to your repo's settings and [enable](https://docs.github.com/en/pages/quickstart) GitHub Pages. Select `gh-pages` as a branch you want your site to be built from.
+
+After that you will need to set [SSH Private Key](https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#%EF%B8%8F-set-ssh-private-key-deploy_key) or [Personal Access Token](https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#%EF%B8%8F-set-personal-access-token-personal_token). Deploy key needs to have allowed write access.
 
 GitHub Workflow is in `.github/workflows/github-pages.yml`.
 
