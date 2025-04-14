@@ -28,7 +28,13 @@ This is an updated setup I took from this [blog post](https://mzrn.sh/2023/10/26
 
 This project almost has everything set up, but there's a few things you will need to do on your own.
 
-Using GitHub UI create new branch called `gh-pages`.
+Create new branch called `gh-pages`. If you don't want to use GitHub GUI you can run these commands.
+
+```
+git checkout -b gh-pages
+git push -u origin gh-pages
+git checkout -
+```
 
 Go to your repo's settings and [enable](https://docs.github.com/en/pages/quickstart) GitHub Pages. Select `gh-pages` as a branch you want your site to be built from.
 
